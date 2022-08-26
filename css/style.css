@@ -1,0 +1,434 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after { 
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-size: 62.5%;
+  background: #151412;
+  color: #fefefe;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+body > * {
+  margin: 30px 15px;
+}
+
+.horizontal-padding {
+  margin: 30px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ .full-box {
+  margin: 0;
+ }
+
+.container-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container-flex > * {
+  margin: 20px auto;
+}
+
+header {
+  width: 100%;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #fefefe;
+  padding: 20px 15px;
+  margin: 0;
+}
+
+main {
+  background: url("../assets/img/signatureBlends.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #151412;
+  background-position: 50%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+img {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid #fefefe;
+}
+
+a, span, time {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: .75rem 0;
+  line-height: 125%;
+}
+
+
+footer {
+  background: #000;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 125%;
+  padding: 20px 15px;
+  margin: 0;
+}
+
+h1, h2, h2 *, h3, h4, h5, h6 {
+  margin: 1rem 0;
+  font-weight: 700;
+  text-align: center;
+  line-height: 125%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2, h2 * {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4, h5, h6 {
+  font-size: 1.25rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+address, address a {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+address {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px 0;
+}
+
+.text-wrap {
+  word-break: break-all;
+}
+
+.font-offset {
+  color: #bda574;
+} 
+
+.long-menu-container {
+  display: none;
+}
+
+.long-menu-container li{
+  margin-left: 35px;
+}
+
+.contact-banner {
+  font-size: 1rem;
+  display: none;
+  justify-content: flex-start;
+}
+
+.attention {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-shadow: 0 0 10px black;
+}
+
+.attention p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.news time {
+  display: block;
+  text-align: center;
+}
+/**********************************************/
+.schedule {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 15px;
+  border: 2px solid #fefefe;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.time-slots {
+  margin: 25px auto;
+}
+
+.time-slots li{
+  margin: .75rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.separator {
+  flex-grow: 1;
+  border-bottom: 1px solid #fefefe;
+}
+
+/**********************************************/
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  border: none;
+}
+
+.button-hollow {
+  margin: 10px 0;
+  border: 2px solid #fefefe;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
+
+.button-filled {
+  margin: 10px 0;
+  background: #bda574;
+  padding: 1rem 2rem;
+  text-shadow: none;
+  display: inline-block;
+}
+
+.free-wifi {
+  width: 200px;
+  float: right;
+  border: none;
+}
+
+.contact-box {
+  width: 100%;
+}
+
+.drink-styles {
+  display: Flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.drink-styles li {
+  margin: 60px 15px;
+  /* border: 2px solid #fefefe; */
+}
+
+.drink-styles img {
+  border: none;
+}
+
+.drink-styles span {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social > * {
+  margin: 22px 20px;
+}
+
+.slide p {
+  font-size: 1rem;
+  margin: .3rem 0;
+  text-align: center;
+}
+
+.slide img{
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slideshow {
+  position: relative;
+  max-width: 500px;
+  height: 700px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.slide {
+  padding: 15px;
+  background: #202124;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 7;
+  width: 100%;
+  height: 100%;
+  animation: opaqTransition 15s cubic-bezier(0, 0, 0, 0.97)  infinite;
+}
+
+.slide-1 {
+  z-index: 6;
+  animation-delay: 0s;
+}
+
+.slide-2 {
+  z-index: 5;
+  animation-delay: 5s;
+}
+
+.slide-3 {
+  z-index: 4;
+  animation-delay: 10s;
+}
+
+@keyframes opaqTransition {
+  0% {left: 100%}
+  4% {left: 0%}
+  33.33% {left: 0%}
+  37.33% {left: -100%}
+  100% {left: -100%}
+}
+
+.style-box-offset {
+  background: #202124;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fa-mug-hot + span:before {
+  content: "";
+  display: inline-block;
+  margin-left: .25rem;
+}
+
+.full-width-flex {
+  flex-basis: 100% ;
+}
+
+.schedule > *:last-child {
+  display: block;
+  margin: 1rem 0;
+}
+
+/* 
+@media all and (min-width: 494px) {
+  .drink-styles {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+} */
+
+@media all and (min-width: 580px) {
+  .container-flex {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-flex > * {
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media all and (min-width: 700px) {
+  .drink-styles {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 725px) {
+  .drink-styles {
+    width: 670px;
+  }
+}
+
+
+@media all and (min-width: 775px) {
+  .short-menu {
+    display: none;
+  }
+
+  .long-menu-container {
+    display: flex;
+  }
+}
+
+@media all and (min-width: 966px) {
+  .drink-styles {
+    width: 936px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .long-menu-container li {
+    margin-left: 60px;
+  }
+}
+
+@media all and (min-width: 1700px) {
+  header nav {
+    width: 1670px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1900px) {
+  .drink-styles {
+    width: 100%;
+  }
+}
