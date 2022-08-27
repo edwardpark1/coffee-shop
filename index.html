@@ -14,36 +14,88 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body class="is-preload">
 		<header>
 			<ul class="contact-banner">
 				<li>Call us 1-555-555-5555</li>
 				<li>contact@blendedconcoctions.com</li>
 				<li>
 					<ul class="social">
-						<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-google"></i></a></li>
-						<li><a href="#"></a><i class="fa-brands fa-yelp"></i></li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-google"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-yelp"></i>
+							</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
 			<nav>
 				<ul>
-					<li><a class="home" href="index.html"><i class="fa-solid fa-mug-hot"></i><span>Blended Concoctions</span></a></li>
-					<li class="short-menu"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-					<li class="long-menu-container">
-						<ul class="long-menu">
-							<li><a href="#"><i class="fa-solid fa-mug-hot"></i><span>Home</span></a></li>
-							<li><a href="#"><i class="fa-solid fa-mug-hot"></i><span>Our Menu</span></a></li>
-							<li><a href="#"><i class="fa-solid fa-mug-hot"></i><span>News</span></a></li>
-							<li><a href="#"><i class="fa-solid fa-mug-hot"></i><span>About Us</span></a></li>
-							<li><a href="#"><i class="fa-solid fa-mug-hot"></i><span>Contact Us</span></a></li>
+					<li>
+						<a class="home" href="index.html">
+							<i class="fa-solid fa-mug-hot"></i>
+							<span>Blended Concoctions</span>
+						</a>
+					</li>
+					<li id="nav-shortened" class="short-menu">
+						<a href="javascript:void(0);" onclick="usertoggleMenu()">
+							<i class="fa-solid fa-bars"></i>
+						</a>
+					</li>
+					<li id="nav-extended" class="long-menu-container">
+						<ul class="nav-desktop">
+							<li class="close-menu">
+								<a href="javascript:void(0);" onclick="usertoggleMenu()">
+									<i class="fa-solid fa-xmark"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-mug-hot"></i>
+									<span>Home</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-mug-hot"></i>
+									<span>Our Menu</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-mug-hot"></i>
+									<span>News</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-mug-hot"></i>
+									<span>About Us</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-solid fa-mug-hot"></i>
+									<span>Contact Us</span>
+								</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main class="horizontal-padding full-box">
+			<div class="bg-curtain"></div>
 			<section class="attention">
 				<img class="logo" src="assets/img/logo/Blended_Concoctions-logo1.png" alt="Blended Concoctions logo">
 				<h1>Eclectic, Aromatic, and Soothing</h1>
@@ -53,7 +105,9 @@
 			</section>
 		</main>
 		<section class="shop-intro container-flex">
-			<h2 class="full-width-flex"><i class="fa-solid fa-mug-hot"></i> <span>Blended Concoctions</span></h2>
+			<h2 class="full-width-flex">
+				<i class="fa-solid fa-mug-hot"></i> <span>Blended Concoctions</span>
+			</h2>
 			<section class="horizontal-box clearfix">
 				<!--Interior Image-->
 				<img src="assets/img/interior-1.jpg" alt="">
@@ -201,8 +255,14 @@
 				<address>
 					<span>123 Coffee Lane</span>
 					<span>CoffeeTown, New York 12345</span>
-					<div><span>Phone: </span><a href="tel:+15555555555">(555) 555-5555</a></div>
-					<div class="text-wrap"><span>Email: </span><a class="font-offset" href="mailto:contact@blendedconcoctions.com">contact@blendedconcoctions.com</a></div>		
+					<div>
+						<span>Phone: </span>
+						<a href="tel:+15555555555">(555) 555-5555</a>
+					</div>
+					<div class="text-wrap">
+						<span>Email: </span>
+						<a class="font-offset" href="mailto:contact@blendedconcoctions.com">contact@blendedconcoctions.com</a>
+					</div>		
 				</address>
 				<img class="logo" src="assets/img/logo/Blended_Concoctions-logo2.png" alt="Blended Concoctions logo">
 			</section>
@@ -266,11 +326,18 @@
 		<footer>
 			<span>&copy;2022 Blended Concoctions - All rights reserved!</span>
 			<ul class="social">
-				<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fa-brands fa-google"></i></a></li>
-				<li><a href="#"></a><i class="fa-brands fa-yelp"></i></li>
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a></li>
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-google"></i></a></li>
+				<li>
+					<a href="#"><i class="fa-brands fa-yelp"></i></a>
+				</li>
 			</ul>
-			<span>Designed by: <a href="#">Ed Park</a></span>
+			<span>Designed by: <a class="font-offset link-style" href="https://edpark.netlify.app/">Ed Park</a></span>
 		</footer>
 
 		<script src="js/jquery.min.js"></script>
