@@ -20,7 +20,7 @@ Designing a website for a Coffee Shop Client
 
 ## Screenshots
 
-![Site Screenshot](assets/img/site-screenshot1.jpg?raw=true "Optional Title")
+![Site Screenshot](assets/img/site-screenshot2.jpg?raw=true "Optional Title")
 
 ## Lessons Learned
 
