@@ -180,10 +180,10 @@ address {
   -webkit-transition: opacity 2s ease-in-out;
   -ms-transition: opacity 2s ease-in-out;
   transition: opacity 2s ease-in-out;
-  -moz-transition-delay: 1.5s;
+  /*-moz-transition-delay: 1.5s;
   -webkit-transition-delay: 1.5s;
   -ms-transition-delay: 1.5s;
-  transition-delay: 1.5s;
+  transition-delay: 1.5s;*/
   content: '';
   background: #151412;
   display: block;
