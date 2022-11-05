@@ -96,10 +96,16 @@ img {
   border: 2px solid #fefefe;
 }
 
-a, span, time {
+a, span, time, button {
   font-size: 1rem;
   text-decoration: none;
   color: #fefefe;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
 }
 
 p {
