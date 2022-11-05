@@ -4,6 +4,9 @@ window.addEventListener("DOMContentLoaded", resizeToggleMenu);
 
 const menuShort = document.querySelector('#nav-shortened');
 const menuLong = document.querySelector('#nav-extended');
+const menuToggles = document.querySelectorAll('.mobile-click'); 
+
+menuToggles.forEach(elem => elem.addEventListener('click', usertoggleMenu));
 
 function usertoggleMenu() {
 	menuLong.classList.toggle('menu-transition');
