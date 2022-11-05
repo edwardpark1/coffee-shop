@@ -368,6 +368,8 @@ body.is-preload .bg-curtain {
 
 .drink-styles img {
   border: none;
+  width: 202px;
+  height: 266px;
 }
 
 .drink-styles span {
