@@ -20,7 +20,7 @@ Designing a website for a Coffee Shop Client
 
 ## Screenshots
 
-![Site Screenshot](assets/img/site-screenshot2.jpg?raw=true "Optional Title")
+![Site Screenshot](assets/img/site-screenshot2.webp?raw=true "Optional Title")
 
 ## Lessons Learned
 
@@ -28,12 +28,4 @@ Learned about creating a website for a client's business.
 
 ## Author
 
-- [@edpark0](https://github.com/edpark0)
-
-
-## Related
-
-Here are some related projects
-
-[Hobby Blog Website](https://github.com/edpark0/HobbyBlogWebsite)
-
+- [@edpark0](https://github.com/edwardpark1)
