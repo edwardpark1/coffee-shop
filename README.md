@@ -28,4 +28,4 @@ Learned about creating a website for a client's business.
 
 ## Author
 
-- [@edpark0](https://github.com/edwardpark1)
+- [@edwardpark1](https://github.com/edwardpark1)
